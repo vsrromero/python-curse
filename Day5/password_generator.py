@@ -20,4 +20,4 @@ for _ in range (symbols):
 password_to_list = list(password)
 random.shuffle(password_to_list)
 password = ''.join(password_to_list)
-print(password)
+print(f"Here is your password: {password}")
