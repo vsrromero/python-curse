@@ -10,3 +10,7 @@
     a. [Rock Paper Scissor Game](/Day4/rock_paper_scissor.py)  
 5. [Day 5](/Day5/)  
     a. [Password Generator](/Day5/password_generator.py)  
+6. [Day 7](/Day7/)
+    a. [Hangman Game](/Day7/hangman_game.py)
+7. [Day 8](/Day8/)
+    a. [Auction system](/Day8/main.py)
