@@ -1,32 +1,22 @@
-""" Auction program """
+from caesar_cypher import caesar
+from art import logo
 
-import art
-import auction
-import helper
+print(logo)
 
-helper.clear_output()
-
-print(art.logo)
-print("Welcome to the secret auction program.")
-
-auction_is_running = True
-bidders = []
-
-while auction_is_running:
-    name = input("What is your name?: ")
-    bid = int(input("What is your bid?: $"))
+loop = True
+while loop:
+    direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
     
-    auction.add_bidder(bidders, name, bid)
+    while direction != 'encode' and direction != 'decode':
+        direction = input("Choose a valid option\nType 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
     
-    new_bidder = input("Are there any other bidders? Type 'yes' or 'no': ").lower()
+    text = input("Type your message:\n").lower()
+    shift = int(input("Type the shift number:\n"))
+
+    caesar(direction=direction, text=text, shift=shift)
     
-    while new_bidder != 'yes' and new_bidder != 'no':
-        new_bidder = input("Please, choose a valid answer, 'yes' or 'no': ").lower()
-    
-    if new_bidder == 'no':
-        winner_bidder, winner_bid = auction.get_winner_bidder(bidders)
-        print(f"The winner is {winner_bidder} with a bid of ${winner_bid}")
-        auction_is_running = False
-    else:
-        helper.clear_output()
-        
+    keep_coding = input('Would you like to keep cyphering?\nY or N\n').lower()
+
+    if keep_coding != 'y':
+        print("Bye!")
+        loop = False
