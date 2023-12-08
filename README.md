@@ -1,16 +1,3 @@
-# 100 Days Coding Python #
+# 100 Days coding in Python project
 
-1. [Day 1](/Day1)  
-    a. [Band Name Generator](/Day1/band_name_gen.py)  
-2. [Day 2](/Day2)  
-    a. [Tip Calculator](/Day2/tip_calculator.py)  
-3. [Day 3](/Day3/)  
-    a. [Treasure Island](/Day3/treasure_island.py)  
-4. [Day 4](/Day4/)  
-    a. [Rock Paper Scissor Game](/Day4/rock_paper_scissor.py)  
-5. [Day 5](/Day5/)  
-    a. [Password Generator](/Day5/password_generator.py)  
-6. [Day 7](/Day7/)
-    a. [Hangman Game](/Day7/hangman_game.py)
-7. [Day 8](/Day8/)
-    a. [Auction system](/Day8/main.py)
+Here you will find all projects done in this python bootcamp
