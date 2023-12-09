@@ -6,4 +6,4 @@ The final project (hirst_painting) is drawing a 10 x 10 dots through the screen 
 
 [Project folder](../day_18/)  
 
-[Back to README](../../README.md)
+[Back to README](../README.md)
