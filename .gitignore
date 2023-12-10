@@ -1,4 +1,4 @@
-# Arquivos de sistema
+# System files
 __pycache__/
 *.pyc
 *.pyo
@@ -8,19 +8,19 @@ __pycache__/
 venv/
 env/
 
-# Arquivos de configuração
+# Config files
 instance/
 config.py
 
-# Logs e arquivos temporários
+# Logs and temp files
 logs/
 *.log
 *.db
 
-# Arquivos de ambiente
+# Environment files
 .env
 
-# Dependências e pacotes instalados
+# Dependencies
 lib/
 lib64/
 local/
@@ -29,5 +29,6 @@ dist/
 *.egg-info/
 db.sqlite
 
-# Arquivos de teste
+# Test files
 instructions.txt
+/_debug
